@@ -5,7 +5,7 @@ import {Product} from "../services/Product";
 jest.mock("../services/Store")
 
 
-describe('런덕파식 테스트', () => {
+describe('런던파식 테스트', () => {
     it('purchase_succeeds_when_enough_inventory', async () => {
         // 준비
         const storeMock = new Store()
